@@ -1,0 +1,39 @@
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    font-family: 'Nunito';
+}
+
+.dk_tabs_list {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    border-bottom: 1px solid #ccc;
+}
+
+ul.dk_tabs_list li {
+    display: inline-block;
+    padding: 10px 15px;
+    border: 1px solid #cccccc;
+    border-bottom: 0px;
+    cursor: pointer;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+ul.dk_tabs_list li:hover {
+    background: #cccccc;
+}
+
+ul.dk_tabs_list li.active {
+    background: #cccccc;
+}
+
+.dk_tab_content {
+    padding: 15px;
+    display: none;
+}
+
+.dk_tab_content.active {
+    display: block;
+}
